@@ -1,8 +1,9 @@
-// JSX
+const page = (<div>
+    <h1>This is JSX</h1>
+    <p>This is a paragraph</p>
+</div>)
+
 ReactDOM.render(
-    <div>
-        <h1>This is JSX</h1>
-        <p>This is a paragraph</p>
-    </div>,
+    page,
     document.getElementById("root")
 )
