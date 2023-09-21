@@ -1,4 +1,22 @@
-const h1 = document.createElement("h1");
-h1.textContent = "This is an imperative way to program"
+const h1 = document.createElement("h1")
+h1.textContent = "Hello world"
 h1.className = "header"
-document.getElementById("root").append(h1)
+console.log(h1)
+//<h1 class="header">Hello world</h1>
+
+const element = <h1>This is JSX</h1>
+console.log(element)
+/*
+{
+    "type": "h1",
+    "key": null,
+    "ref": null,
+    "props": {
+        "children": "This is JSX"
+    },
+    "_owner": null,
+    "_store": {}
+} */
+
+// JSX
+ReactDOM.render(element, document.getElementById("root"))
