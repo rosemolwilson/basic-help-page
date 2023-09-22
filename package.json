@@ -1,6 +1,28 @@
 {
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^18.2.0"
-  }
+    "react-dom": "^17.0.2",
+    "serve": "^14.2.1"
+  },
+  "name": "basic-help-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/standalone": "^7.22.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve -s -p 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosemolwilson/basic-help-page.git"
+  },
+  "author": "Rose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosemolwilson/basic-help-page/issues"
+  },
+  "homepage": "https://github.com/rosemolwilson/basic-help-page#readme",
+  "description": ""
 }
