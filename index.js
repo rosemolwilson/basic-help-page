@@ -1,9 +1,14 @@
-const page = (<div>
-    <h1>This is JSX</h1>
-    <p>This is a paragraph</p>
-</div>)
-
-ReactDOM.render(
-    page,
-    document.getElementById("root")
+const navbar = (
+    <nav>
+        <h1>
+            Bob's Shopping Mall
+        </h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
 )
+
+ReactDOM.render(navbar, document.getElementById("root"));
