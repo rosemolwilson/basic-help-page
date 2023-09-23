@@ -1,8 +1,13 @@
 function MyHeader() {
     return (
         <header>
-            <nav>
+            <nav className="nav">
                 <img src="./images/react-logo.png" width="80px" />
+                <ul className="nav-items">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
