@@ -12,3 +12,7 @@
 .nav-items > li {
     padding: 10px;
 }
+
+.nav-logo {
+    width: 80px;
+}
