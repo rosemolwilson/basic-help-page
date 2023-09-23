@@ -15,7 +15,7 @@ function MyHeader() {
 
 function MyFooter() {
     return (
-        <small>© 2023 Wilson development. All rights reserved.</small>
+        <small className="footer">© 2023 Wilson development. All rights reserved.</small>
     )
 }
 
