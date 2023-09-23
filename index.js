@@ -9,6 +9,7 @@ const navbar = (
             <li>Contact</li>
         </ul>
     </nav>
-)
+);
 
-ReactDOM.createRoot(document.getElementById("root")).render(navbar);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(navbar);
