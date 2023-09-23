@@ -11,4 +11,4 @@ const navbar = (
     </nav>
 )
 
-ReactDOM.render(navbar, document.getElementById("root"));
+ReactDOM.createRoot(document.getElementById("root")).render(navbar);
