@@ -8,10 +8,15 @@ function MyHeader() {
     )
 }
 
-function Page() {
+function MyFooter() {
+    return (
+        <small>© 2023 Wilson development. All rights reserved.</small>
+    )
+}
+
+function MyPageContent() {
     return (
         <div>
-            <MyHeader />
             <h1>Reasons I'm excited to learn React!</h1>
             <ol>
                 <li>It's a popular library, so I'll be
@@ -19,9 +24,17 @@ function Page() {
                 <li>I'm more likely to get a job as a developer
                     if I know React</li>
             </ol>
-            <small>© 2023 Wilson development. All rights reserved.</small>
         </div>
+    )
+}
 
+function Page() {
+    return (
+        <div>
+            <MyHeader />
+            <MyPageContent />
+            <MyFooter />
+        </div>
     )
 }
 
